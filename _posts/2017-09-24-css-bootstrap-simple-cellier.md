@@ -3,9 +3,6 @@ title: '如何使用Bootstrap创建有逼格的web界面'
 layout: post
 tags:
     - bootstrap 
-    - simple
-    - css
-    - web
 ---
 我和大家一样，打算在知乎上找一个有“格调”的jekyll的模板，嗯，找到这个帖子[知乎——有哪些简洁明快的 Jekyll 模板？](https://www.zhihu.com/question/20223939)。看到了一些同学的推荐，[cellier](http://cellier.me/blog/)这个博客样式。真的漂亮！但没有找到cellier同学的博客源码，于是我使用Bootstrap来实现了一把。使用Bootstrap没有其它理由，纯是因为我只听过她。好吧，谁叫我是个后端程序员呢！
 

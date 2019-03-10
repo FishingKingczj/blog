@@ -1,8 +1,7 @@
 markdown: rdiscount
-highlighter: pygments
-permalink: /:year/:month/:day/:title.html
-name: "us&#39;"
-markdown: rdiscount
+highlighter: rouge
+permalink: /:title.html
+name: "Fishing Pool"
 rdiscount:
     extensions:
       - generate_toc
@@ -10,9 +9,7 @@ rdiscount:
       - smart 
     toc_token: "@TOC"
 
-author: "lao&#39; ji"
-atom-baseurl: "http://blog.zxfamily.site"
-disqus: "gopherwood"
+author: "FishingKing Czj"
 
 excerpt_separator: "<!--more-->"
 
@@ -21,23 +18,19 @@ excerpt_separator: "<!--more-->"
 navigations:
   - title: Archive
     class: fa fa-list-ul
-    href: /jekyll-blog-template/archive.html
+    href: /archive.html
   - title: Tags
     class: fa fa-tags
-    href: /jekyll-blog-template/tags.html
+    href: /tags.html
   - title: About
     class: fa fa-user
-    href: /jekyll-blog-template/about.html
-  - title: Subscribe
+    href: /about.html
+  - title: RSS
     class: fa fa-rss
-    href: /jekyll-blog-template/atom.xml
+    href: /atom.xml
 
 #social
-qq: "http://wpa.qq.com/msgrd?v=3&uin=331660522&site=qq&menu=yes"
-weibo: "http://blog.zxfamily.site"
-wechat: "微信号:elephant_crossing"
-linkedin: "https://www.linkedin.com/in/%E9%9C%87%E5%AE%87-%E5%AD%A3-824622b4/"
 github: "https://github.com/Zuofan"
 
 
-siteurl: "https://zuofan.github.io/jekyll-blog-template/"
+siteurl: "https://fishingkingczj.github.io/"

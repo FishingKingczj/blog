@@ -1,17 +1,17 @@
 ---
-title: Me
+title: me
 layout: page
 ---
 
 
 <h2> a </h2> 
 
-> weber &#166; unixer &#166; coder
+> student
 
 
 <h2> mail</h2> 
 
-> qian_jizy(at)163{dot}com
+> fishingkingczj@gmail.com
 
 
 
