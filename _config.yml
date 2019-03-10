@@ -1,13 +1,7 @@
-markdown: rdiscount
+markdown: kramdown
 highlighter: rouge
 permalink: /:title.html
 name: "Fishing Pool"
-rdiscount:
-    extensions:
-      - generate_toc
-      - footnotes
-      - smart 
-    toc_token: "@TOC"
 
 author: "FishingKing Czj"
 
