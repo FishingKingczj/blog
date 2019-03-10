@@ -2,16 +2,12 @@ baseurl:
     url: https://fishingkingczj.github.io
 markdown: kramdown
 highlighter: rouge
-permalink: /:year/:month/:day/:title/
+permalink: :year/:month/:day/:title/
 name: "THE POOL"
 kramdown:
     input: GFM
 
-author: "FishingKing Czj"
-
 excerpt_separator: "<!--more-->"
-
-
 
 navigations:
   - title: Archive
@@ -31,3 +27,4 @@ navigations:
 github: https://github.com/FishingKingczj
 
 siteurl: https://fishingkingczj.github.io
+author: "FishingKing Czj"
