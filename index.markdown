@@ -19,7 +19,7 @@ layout: default
         {% endif %}
 
         <h2 class="header-title">
-            <a href="{{ site.siteurl }}/{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.siteurl }}{{ post.url }}">{{ post.title }}</a>
         </h2>
 
         <div class="header-dateline">
@@ -30,7 +30,7 @@ layout: default
     <div class="article-summary">
         <p> {{ post.excerpt }}</p>
     </div>
-    <div class="article-footer"><a href="{{ site.siteurl }}/{{ post.url }}"></a></div>
+    <div class="article-footer"><a href="{{ site.siteurl }}{{ post.url }}"></a></div>
 </article>
 
 </div>
