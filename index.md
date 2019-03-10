@@ -13,7 +13,7 @@ layout: default
         {% if post.tags %}
             <div class="header-category">
                   {% for tag in post.tags limit: 1%}
-                        <a  href="{{ site.siteurl }}/tags.html#{{ tag }}" title="{{ tag }}">{{  tag |capitalize  }}</a>                 
+                        <a  href="{{ site.siteurl }}/tags#{{ tag }}" title="{{ tag }}">{{  tag |capitalize  }}</a>                 
                 {% endfor %}
             </div>
         {% endif %}
