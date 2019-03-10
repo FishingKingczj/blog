@@ -1,7 +1,11 @@
+baseurl:
+    url: https://fishingkingczj.github.io
 markdown: kramdown
 highlighter: rouge
-permalink: /:title.html
-name: "The POOL"
+permalink: /:year/:month/:day/:title/
+name: "THE POOL"
+kramdown:
+    input: GFM
 
 author: "FishingKing Czj"
 
@@ -24,7 +28,6 @@ navigations:
     href: /atom.xml
 
 #social
-github: "https://github.com/Zuofan"
+github: https://github.com/FishingKingczj
 
-
-siteurl: "https://fishingkingczj.github.io/"
+siteurl: https://fishingkingczj.github.io
