@@ -1,10 +1,10 @@
 siteurl: https://fishingkingczj.github.io
-markdown: kramdown
+markdown: rdiscount
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
 name: "THE POOL"
-kramdown:
-    input: GFM
+# kramdown:
+#     input: GFM
 
 excerpt_separator: "<!--more-->"
 
