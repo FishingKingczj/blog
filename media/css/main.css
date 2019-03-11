@@ -238,8 +238,8 @@ article   *, .article *,#tag_cloud {
 
 #totop {
   position: fixed;
-  bottom: 5em;
-  right: 5em;
+  bottom: 2em;
+  right: 2em;
   cursor: pointer;
   display: none;
 }
