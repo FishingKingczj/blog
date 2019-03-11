@@ -221,7 +221,7 @@ article   *, .article *,#tag_cloud {
 }
 
  .article > .article-footer a:after {
-    content: " \279D";
+    content: " ()";
     font: normal .9em sans-serif;
     color:rgba(31, 31, 31, .45);
 }
@@ -234,6 +234,14 @@ article   *, .article *,#tag_cloud {
 
 .pagination.pull-right {
   text-align: right;
+}
+
+#totop {
+  position: fixed;
+  bottom: 5em;
+  right: 5em;
+  cursor: pointer;
+  display: none;
 }
 
 
@@ -260,6 +268,10 @@ ul.listing li.listing-seperator {
       font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; 
 }
 ul.listing li.listing-seperator:before {
-        content: "⭠ ";
+        content: "{ ";
         color: #ccc; 
+}
+ul.listing li.listing-seperator::after {
+  content: " }";
+  color: #ccc; 
 }

@@ -69,6 +69,10 @@
         </div>
     </main>
 
+    <div id="totop" class="totop">
+      <a><img src="{{ site.siteurl }}/media/img/scrollup.png"/></a>
+      </div>
+
     <div class="push-footer"><!-- not have any content --></div>
 </div> 
       
@@ -84,11 +88,12 @@
 
           <div>
             {% assign first_post = site.posts | last %}
-            &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} <a href="{{ site.atom-baseurl }}" >{{ site.author }}</a>| powered by jekyll | <a href="#top" target="_self">back to top</a>
+            &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} <a href="{{ site.atom-baseurl }}" >{{ site.author }}</a>| powered by jekyll <a class="totop" href="javascript:void(0)">| back to top</a>
           </div>
         </footer>
 
 <script src="{{ site.siteurl }}/media/js/plugins.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ site.siteurl }}/media/js/totop.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
   $('.cross-rotate').on('click', function(){
     $(this).toggleClass('active');
