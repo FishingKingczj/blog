@@ -5,4 +5,4 @@ layout: page
 
 Nothing found :(
 
-But you still can have a [look around](/archive.html)
+But you still can have a [look around](/)
