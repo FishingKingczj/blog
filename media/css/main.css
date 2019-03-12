@@ -94,7 +94,7 @@ body {
 
 /* nav header */
 a { color: #1f1f1f;font-family: "futura-pt", "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;}
-a:focus, a:hover{text-decoration: none;color:inherit;}
+a:focus, a:hover{text-decoration: none;color:rgba(31,31,31,.5);}
 
 .navbar-default {background-color:#ffffff;border:none;}
   
@@ -178,6 +178,9 @@ a:focus, a:hover{text-decoration: none;color:inherit;}
 article   *, .article *,#tag_cloud {
  font-family: "futura-pt", "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.article-body a { color: #1E90FF; }
+.article-body a:hover, .article-body a:focus { color: #7B68EE; }
 
 .article .article-header {
     text-align:center;
