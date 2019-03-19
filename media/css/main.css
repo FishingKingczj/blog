@@ -57,7 +57,7 @@
 footer .icons-container a {
     padding: 0 5px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 30px;
     color: rgba(31, 31, 31, 0.67);
 }
 
@@ -198,11 +198,13 @@ article   *, .article *,#tag_cloud {
     color: rgba(31,31,31,.5);font-family: "futura-pt";
   }
 
+.article-body *{
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
-
-.article  .article-body,
+.article,
  .article  .article-summary{
-    font: 300 1.5em/1.8 "futura-pt", "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 300 1.5em/1.8 "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
     .article  .article-body img {
         display:block;
@@ -248,7 +250,7 @@ article   *, .article *,#tag_cloud {
 }
 
 
-//archive-list
+/* archive-list */
 ul.listing { margin-top: 1em; }
 ul.listing li {
     font-size: 1.4em;
