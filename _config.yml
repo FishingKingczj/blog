@@ -1,5 +1,5 @@
-# siteurl: https://fishingkingczj.com
-siteurl: http://127.0.0.1:4000
+siteurl: https://fishingkingczj.com
+# siteurl: http://127.0.0.1:4000
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/

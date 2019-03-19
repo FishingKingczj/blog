@@ -31,7 +31,7 @@ tags:
 这部分回答的时候顺口答了，之后才发现其实回答错了，但是也不知道面试官有没有听出来，挺丢人了...  
 - standrad：标准模式，无论如何都在栈上加上启动的Activity  
 - singleTop：栈顶复用，当栈顶和启动的Activity相同时不会启动新的Activity  
-- SingleTask:栈内复用，当启动栈内存在的Activity时会将其之前的所有Activity*出栈*并使此Activity处于栈顶  
+- SingleTask：栈内复用，当启动栈内存在的Activity时会将其之前的所有Activity*出栈*并使此Activity处于栈顶  
 - singleInstance：单例模式，会在启动时新开一个栈加入Activity
 
 ### Java ArrayList和Vector的线程安全
